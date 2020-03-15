@@ -1,2 +1,3 @@
 # netty_websocket_rabbitmq
 use netty send message with websocket
+消费rabbitmq，然后netty用websocket给前端传输消息，指定管道或者发送到所有的管道，如果指定，用线程安全的currentHashMap来存，key自定义
