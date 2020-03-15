@@ -20,11 +20,18 @@
 		<spring-boot-starter-redis-version>1.3.2.RELEASE</spring-boot-starter-redis-version>
 	</properties>
 	<dependencies>
+
 		<dependency>
 			<groupId>io.netty</groupId>
 			<artifactId>netty-all</artifactId>
-			<version>4.1.36.Final</version>
+			<version>4.1.42.Final</version>
 		</dependency>
+<!--github报警低于4.1.42不安全-->
+		<!--		<dependency>-->
+<!--			<groupId>io.netty</groupId>-->
+<!--			<artifactId>netty-all</artifactId>-->
+<!--			<version>4.1.36.Final</version>-->
+<!--		</dependency>-->
 		<!-- spring boot -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
