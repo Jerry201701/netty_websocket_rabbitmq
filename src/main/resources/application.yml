@@ -29,11 +29,11 @@ spring:
         #template-loader-path: classpath:/templates/
 
     rabbitmq:
-      host: 123.206.64.103
+      host: 127.0.0.1
       port: 5672
-      username: dian
-      password: dian1234
-      virtual-host: /dian
+      username: root
+      password: root
+      virtual-host: /test
 
 
   #    rabbitmq:
